@@ -1,7 +1,7 @@
-from gorg_utils.gorg import Gorg
+from gorgplex.src.gorg_utils.gorg import Gorg
 from random import random
 
-def get_win_ratio(gorg_1:Gorg, gorg_2, Gorg)->float:
+def get_win_ratio(gorg_1:Gorg, gorg_2: Gorg)->float:
     '''Returns a percentage chance that gore_1 would beat gore_2 in a fight'''
     return gorg_1.modifier.skill / (gorg_1.modifier.skill + gorg_2.modifier.skill)
 
