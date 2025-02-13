@@ -15,8 +15,8 @@ class Gorg:
     modifier: Modifier
     isFlowerLover: bool = True
 
-    if __name__ == "__main__":
-        print("hello world")
+if __name__ == "__main__":
+    print("hello world")
 
-        tim = Gorg("tim", Modifier(4.5, 2.1))
-        print(tim)
+    tim = Gorg("tim", Modifier(4.5, 2.1))
+    print(tim)
