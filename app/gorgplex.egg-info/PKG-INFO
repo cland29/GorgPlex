@@ -20,12 +20,12 @@ Dynamic: summary
 # GorgPlex
 GorgPlex is a library for making gorgs from numbers. What's a gorg? I don't know either :grin:
 
-# Why this exists?
+# Why does this exists?
 Why do any of us exist? That's a critical question. However, it's not quite as existential as that. This exists because I wanted to get experience making a python library, and by golly, that's what I'm doing. 
 
 For now, it's just meant to be locally deployed, it doesn't have any fancy licensing or existance on pypi. That's ok. The gorgplex can be it's only little cosmic realm, and that's fine with me.
 
-# Install locally
+# How to install locally
 
 First, make sure to install the setuptools on your machine:
 

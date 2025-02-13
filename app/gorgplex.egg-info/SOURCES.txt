@@ -1,4 +1,3 @@
-README.md
 setup.py
 app/__init__.py
 app/gorgplex/__init__.py
