@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: gorgplex
+Version: 0.0.10
+Summary: The gorgplex at your fingertips
+Home-page: https://github.com/cland29/GorgPlex
+Author: Carl Lee Landskron
+Author-email: Carl.lee.landskron@gmail.com
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib>=3.10.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# GorgPlex
+GorgPlex is a library for making gorgs from numbers. What's a gorg? I don't know either

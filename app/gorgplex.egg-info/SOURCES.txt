@@ -1,0 +1,13 @@
+setup.py
+app/__init__.py
+app/gorgplex/__init__.py
+app/gorgplex.egg-info/PKG-INFO
+app/gorgplex.egg-info/SOURCES.txt
+app/gorgplex.egg-info/dependency_links.txt
+app/gorgplex.egg-info/requires.txt
+app/gorgplex.egg-info/top_level.txt
+app/gorgplex/src/gorg/battle_viewer.py
+app/gorgplex/src/gorg/gorg.py
+app/gorgplex/src/gorg/gorg_battler.py
+app/gorgplex/src/gorg/gorg_maker.py
+app/gorgplex/src/modifiers/modifier.py
