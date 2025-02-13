@@ -6,8 +6,10 @@ app/gorgplex.egg-info/SOURCES.txt
 app/gorgplex.egg-info/dependency_links.txt
 app/gorgplex.egg-info/requires.txt
 app/gorgplex.egg-info/top_level.txt
-app/gorgplex/src/gorg/battle_viewer.py
-app/gorgplex/src/gorg/gorg.py
-app/gorgplex/src/gorg/gorg_battler.py
-app/gorgplex/src/gorg/gorg_maker.py
+app/gorgplex/src/gorg_utils/__init__.py
+app/gorgplex/src/gorg_utils/battle_viewer.py
+app/gorgplex/src/gorg_utils/gorg.py
+app/gorgplex/src/gorg_utils/gorg_battler.py
+app/gorgplex/src/gorg_utils/gorg_maker.py
+app/gorgplex/src/modifiers/__init__.py
 app/gorgplex/src/modifiers/modifier.py

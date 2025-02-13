@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 @dataclass
-class modifier:
+class Modifier:
     '''A modifier for a gorg
     
     args:

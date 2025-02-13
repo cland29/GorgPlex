@@ -1,8 +1,9 @@
 from dataclasses import dataclass
-from modifiers.modifier import modifier
+from gorgplex.src.modifiers.modifier import Modifier
+print("Hello world")
 
 @dataclass
-class Gorg():
+class Gorg:
     '''
     Class to define a Gorg
     
@@ -11,7 +12,11 @@ class Gorg():
         isFlowerLover: Knowing if your gorg likes flowers
         '''
     name: str
-    modifier: modifier
+    modifier: Modifier
     isFlowerLover: bool = True
 
-    
+    if __name__ == "__main__":
+        print("hello world")
+
+        tim = Gorg("tim", Modifier(4.5, 2.1))
+        print(tim)
