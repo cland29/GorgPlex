@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from gorgplex.src.modifiers.modifier import Modifier
-print("Hello world")
+
 
 @dataclass
 class Gorg:
@@ -14,6 +14,12 @@ class Gorg:
     name: str
     modifier: Modifier
     isFlowerLover: bool = True
+
+    def get_strength(self)->float:
+        return self.modifier.strength
+    
+    def get_skill(self)->float:
+        return self.modifier.skill
 
 if __name__ == "__main__":
     print("hello world")

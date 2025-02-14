@@ -8,6 +8,7 @@ Author-email: Carl.lee.landskron@gmail.com
 Requires-Python: >=3.12
 Description-Content-Type: text/markdown
 Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: numpy>=1.26.4
 Dynamic: author
 Dynamic: author-email
 Dynamic: description

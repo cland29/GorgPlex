@@ -13,6 +13,7 @@ setup(
     url="https://github.com/cland29/GorgPlex",
     author="Carl Lee Landskron",
     author_email="Carl.lee.landskron@gmail.com",
-    install_requires=["matplotlib >= 3.10.0"],
+    install_requires=["matplotlib >= 3.10.0",
+                      "numpy >=  1.26.4"],
     python_requires=">=3.12",
 )
