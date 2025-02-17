@@ -8,9 +8,9 @@ For now, it's just meant to be locally deployed, it doesn't have any fancy licen
 
 # How to install locally
 
-First, make sure to install the setuptools on your machine:
+First, make sure to install the setuptools and build libraries on your machine:
 
-```pip install setuptools```
+```pip install setuptools build```
 
 In order to install locally, clone this repo, then use terminal to go to the top level of the folder.
 
@@ -25,7 +25,7 @@ If you want to edit the gorgplex yourself, first start by installing wheel:
 
 Then, edit your code. Once your code is edited, you want to build with the following command in terminal:
 
-```python setup.py bdist_wheel sdist```
+```python -m build```
 
 This will create a bdist_wheel and an sdist. Then, you can install!
 
